@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#13a4ec",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101c22",
+            },
+            fontFamily: {
+              display: ["Plus Jakarta Sans"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              lg: "1rem",
+              xl: "1.5rem",
+              full: "9999px"
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-slate-200/80 bg-background-light/80 px-10 py-4 backdrop-blur-sm dark:border-slate-800/80 dark:bg-background-dark/80">
+<div class="flex items-center gap-4 text-slate-900 dark:text-white">
+<div class="h-8 w-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold">Wanderlust</h2>
+</div>
+<nav class="hidden items-center gap-8 md:flex">
+<a class="text-sm font-medium text-slate-600 transition-colors hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="#">Destinations</a>
+<a class="text-sm font-medium text-slate-600 transition-colors hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="#">About Us</a>
+<a class="text-sm font-medium text-slate-600 transition-colors hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="#">Contact</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex h-10 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full bg-primary px-6 text-sm font-bold text-white transition-transform hover:scale-105">
+<span class="truncate">Book Now</span>
+</button>
+<div class="h-10 w-10 rounded-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDaZzUVYa0fqKfILrehV7pu_ZcFuO4n-Yz19NJkluyH2TzazzcP38RzTKoepZijhfZxVqDPSuT-JtAUIp5oBiS6t1Mosj7d-QlvXbfV-HMwJBjGcav_a3FLlkKCXRBza70-4i_xXVjesT7YAmYho-Nt6zoT1QBC6H14gQ3Z5VQ1X-3IUkvCRffDaNuPxosqyik5f8uVjpRISpwfIP3O1058dk1-5_cvYF9ZQl10UpNGhnhFseRiFjIFYf1Bt13BF9s_hh9fu5JUCw");'></div>
+</div>
+</header>
+<main class="flex-1">
+<section class="relative">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuClMOreD9ThMvS9v5IJ8gK3XIeEMmwPOsFr5J4u3nLaBeZzyLIqfbSWH8TZJFsI17V5o1djbOgCzzpCuC1wfxKsPgifA5m09Ay6o2H2HQjLYYJOJQJS-_EmYMBPHEebrVvdznKHwfYScpdjMfkYijy2qKcmhgWkxFnNERQDv793d3lU9GxeUZkPjq0edhElr_RTcJIeH2Lz8DpkU66oC11Ud6JGCu-RTqRPxwXpN28Mj6aFvndHoXakezuHWzEfLu1OdnU4XbyPrQ");'></div>
+<div class="absolute inset-0 bg-black/40"></div>
+<div class="relative mx-auto max-w-6xl px-4 py-32 text-center text-white sm:px-6 lg:py-48 lg:px-8">
+<h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">Explore the World with Wanderlust</h1>
+<p class="mt-4 max-w-2xl mx-auto text-lg text-slate-200">Discover breathtaking destinations and create unforgettable memories. Your journey starts here.</p>
+<div class="mt-8 flex justify-center">
+<button class="flex h-12 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full bg-primary px-8 text-base font-bold text-white transition-transform hover:scale-105">
+<span class="truncate">Find Your Adventure</span>
+</button>
+</div>
+</div>
+<div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-background-light dark:from-background-dark"></div>
+</section>
+<section class="py-16 sm:py-24">
+<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+<h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">Popular Destinations</h2>
+<div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+<div class="group relative">
+<div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200">
+<img alt="Paris" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5o1kxw_Oy2NaoDcsijKB_ItJ7Xa_YSHo7QjvgKvt8b6dOkN-TMZ7h8anJ9pXwWGt798im1tOi0O4LDl0M0ZUVZ0NqfyYp7PZvI6dZxH6iKg1zK4CJ0tJWYk1gg6rtfVd1Hl0RKE80_minC144xg2JidhibqO-R-nwEg6WwWwgoE_o1C-37-m_cE8bJ_XKC2TN_KOfQX05_0t5q33ZvHBRmMO3wVlqZobsjyOePqZXmByLnVgwNJv0FDHk4xR4VyYcTiyoxSiQlg"/>
+</div>
+<div class="mt-4">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white">Paris</h3>
+<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">Experience the romance of Paris with its iconic landmarks and charming cafes.</p>
+</div>
+</div>
+<div class="group relative">
+<div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200">
+<img alt="Tokyo" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuctGg6njVzwxhaatWzxzV1VbjFAJPXk4iAp-Z2Av1z0ma7fH6rkfqaSqPQAQ1U1YpKmnVUSzfdXM1PPZsA9l9jf7W75llt2ylY8ZVwzjKXryV_R-ByzDbSeYMuO_drlIKtyg_i6dMqE1iY02zK7LB91PgbixzexYQ4Ieo9RUMypxzaEnEqDtiA4koPxP1Addfg6BLyoMXxQMDp6umO7BfzCDLuTPSC0xtjlezP9HTxic5grw43j0-ES7E3M2YuWA_LXuC_wrwAw"/>
+</div>
+<div class="mt-4">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white">Tokyo</h3>
+<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">Discover the vibrant culture and modern marvels of Tokyo.</p>
+</div>
+</div>
+<div class="group relative">
+<div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200">
+<img alt="New York" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAifxxXVXc_qjV0SOvlaRl5O0k5Gqs-Ixw1SIUNZX7vIB2Ch1f7MqQm8J8Cv3GGuu2QQpVziRzTaZqdxSF9pW1-xuKZd2ohqfG1IDwY0hPK-RHWBXXh6rUEv8PmCMhA3NhlqjnnsdahD9-wWua-7eiWF3M8iT7VOeKwf3UyZPvFIxdwK9-iKdH_DbGXEQ4L6bPm43axjVwVD_mysw8DxSA619U6EvMymurIVuVriXufqIuHQrupCPBs1mLB09hD_STBzLmV4_h2aQ"/>
+</div>
+<div class="mt-4">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white">New York</h3>
+<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">Explore the bustling streets and iconic skyline of New York City.</p>
+</div>
+</div>
+<div class="group relative">
+<div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200">
+<img alt="Rome" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqf7V-caTUwe6WLlr4M1xoAMH2EgZyMnr_cxPegswvVTJ84oOjbc96BjdQpb7mm6UjgFhIzjkbW1spoE3myapK8mPOFq6VGQ4rGSlZQasvm4_iXcbD7K8xplG8y0R2YG4XTM74Aw9YfTihSe5-T5S5kszJ3QAlCkoEWVaPGL7aFLPbBxUA83RVKmNWJOPtTSTW1zwoOQN-33EQy-p4GRlMAtkGwVMUpX-PTaY-sITGlT368ehRMAMvdbC7Ph0GEh5AnVeE4yRsBA"/>
+</div>
+<div class="mt-4">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white">Rome</h3>
+<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">Immerse yourself in the ancient history and artistic beauty of Rome.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-background-light py-16 dark:bg-background-dark sm:py-24">
+<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+<h2 class="text-3xl font-bold tracking-tight text-center text-slate-900 dark:text-white sm:text-4xl">Traveler Stories</h2>
+<div class="mt-12">
+<div class="flex snap-x snap-mandatory gap-6 overflow-x-auto pb-4 [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+<div class="w-80 flex-shrink-0 snap-center rounded-lg bg-white p-6 shadow-lg dark:bg-slate-800/50">
+<div class="h-48 w-full overflow-hidden rounded">
+<img alt="Alps" class="h-full w-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAITivNahCtxYearTpnhsXe4baNGrE_IPGkNsXmIWbxMaazG1SWEZK9PtJirlVXHVOkxDz-eSg_TJHaQ_1YPKuEmJhpn6bsMY_GygZiGKFx25x-3B3VVxwrVw2c__yCBayO7uPVR8JMbBxSAlwcoSELQJILaIoBjVzXKBjD_3I1KYfCNFIs3utx_iuw0W8zNNU-gHEWom6xLIxI-ocCFuWt3pv7WmLZeF7kWdaeW3VVqUcRK1b7A-zoZ6RmWK9ys7V0jPznWaIKBg"/>
+</div>
+<blockquote class="mt-6 text-slate-900 dark:text-white">
+<p class="text-lg font-medium">"Hiking through the stunning landscapes of the Alps was an unforgettable experience."</p>
+</blockquote>
+<p class="mt-2 text-sm text-slate-500 dark:text-slate-400">— Sarah, Adventure Seeker</p>
+</div>
+<div class="w-80 flex-shrink-0 snap-center rounded-lg bg-white p-6 shadow-lg dark:bg-slate-800/50">
+<div class="h-48 w-full overflow-hidden rounded">
+<img alt="Bali" class="h-full w-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjEjA-41SDNkTPKt6MCe_EeGnlFGm3o5Ram_PqrV8lRe3kVLfUOZTrZaXVLsAa-Y2ncI5Syai6Le1HELy8kxZW-9ShXT62JqLuTTSSCYeuxbbdjct_jZ-FxMYTzu7gDc_MgdB_AGrv_x-A8o7zuLArXsUWnMuJLUBruVLR5OnZGlQzSz793HH8Xy7VXhu59aPsP4Wp5SkhmsJiKf9mZkBUZoFstf2utm781h9ej6FfcEQ-f_r9tWaLbmuLPRhV_hv_IBLhZbv9Ag"/>
+</div>
+<blockquote class="mt-6 text-slate-900 dark:text-white">
+<p class="text-lg font-medium">"The sunsets in Bali are truly magical, offering a perfect escape from the everyday."</p>
+</blockquote>
+<p class="mt-2 text-sm text-slate-500 dark:text-slate-400">— Mark, Relaxation Expert</p>
+</div>
+<div class="w-80 flex-shrink-0 snap-center rounded-lg bg-white p-6 shadow-lg dark:bg-slate-800/50">
+<div class="h-48 w-full overflow-hidden rounded">
+<img alt="Barcelona" class="h-full w-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOEBKi9kEJSAuDbM9WCMPgDURWDG_XWbmCcgMQhLvExu-2_vyCgTeHJd9wzGNSyHw9txk12S5Vb7iP_7yJ0OkaTRl8l0XkpsD1GR_QEoPvpQyMSD9Pmc0UEdkt1bT8YJUH5rT9A_AQ2TJmxknmnda2Lb28WmQDvFFSPW90dsZOe8dvTHijLX2yWPEiS9kD2-gfrD1UZi5qUFn0eDaFhGOhNvJ3GsWan7bhew3dj3mfCU888wg2uA6RFuiYys10FujcakY_uFShMQ"/>
+</div>
+<blockquote class="mt-6 text-slate-900 dark:text-white">
+<p class="text-lg font-medium">"Barcelona comes alive at night, with its vibrant streets and lively atmosphere."</p>
+</blockquote>
+<p class="mt-2 text-sm text-slate-500 dark:text-slate-400">— Jessica, Nightlife Enthusiast</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-24">
+<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+<h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">Featured Destinations</h2>
+<div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+<div class="group relative">
+<div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200">
+<img alt="Machu Picchu" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzmTdpZ4qO0GrjwXR26h1lAW4avfgZ_sIHhmPi0wZghW86xoOuMKdnnj9gBT2BvIDhIk6mRvZMY07JfAOmL-MHTCDKkV90UDo8Mwf_L9JXy6rfhozQLFt8KeH3ETp8vC_Li7C6ybFXsdgw0hMa15LLSi_zkhJpLkADVjn-zI4-jpdXR_7fvK8EdSHagpWYbAYU2VDmI2IOxgL3Lk5hPQeVWCuxfSUgROsfcg27UeosXC11KOKm4RAKVpeBVIj9wDl8kxutvmx5Ow"/>
+</div>
+<div class="mt-4">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white">Machu Picchu</h3>
+<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">Uncover the mysteries of the ancient Inca citadel nestled high in the Andes.</p>
+</div>
+</div>
+<div class="group relative">
+<div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200">
+<img alt="Santorini" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIb_UrfEpi7Eub0JR0AwVmcG-tTRYlB8ijvSkcpoOoy1l2c4X3lkLCzd7WPB6WA59ExnF7A49yRGxrlplG_y_8rSL-DOlSKntxyVD5YhxA90AmE_UjiL2jART7PbZ-mM-L5FKIzgeKh0rwu19YUu8Wk2BspZOf74fcer7gDnKgDTYa1a2vy0nFTOYHVnRF2F-90NpxpSCyWQCg98OSBoeCTs-KU7m-jBHsCs7MPFLp1NEeZvFPMwH_12LS-VVuFo2rJ77VY3WPYQ"/>
+</div>
+<div class="mt-4">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white">Santorini</h3>
+<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">Experience the breathtaking beauty of Santorini's white-washed villages.</p>
+</div>
+</div>
+<div class="group relative">
+<div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-slate-200">
+<img alt="Serengeti" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOHKGotWSDWuNWx44GJ9oxbFehV23zSpwdXsyZVwuo12LZHFU7SnORCw7uNw-oo99Rf7d2QdVtTQqT22m8Iu8jZq0_ZmEzhh5t2bO0sl-EgxAIexPqJytZ1HWmt6Bnccdcjn5dc1Q7U0QC1YoRj7dQJyzO64LzfioXubuBsmyoEY6ziRX4mbWv54gYJXDYMkWo1m33nfU0Vvobir65K5X6pAY3nOWwJiTFa3Aa4QhhG0MM619t68lVtPt6f7-hqEjkLjXNgu-3QA"/>
+</div>
+<div class="mt-4">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white">Serengeti</h3>
+<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">Witness the incredible wildlife and vast landscapes of the Serengeti plains.</p>
+</div>
+</div>
+</div>
+<div class="mt-12 text-center">
+<button class="rounded-full bg-primary/10 px-6 py-3 text-sm font-bold text-primary transition-colors hover:bg-primary/20 dark:bg-primary/20 dark:hover:bg-primary/30">
+<span class="truncate">View All Destinations</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-light dark:bg-background-dark border-t border-slate-200 dark:border-slate-800">
+<div class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-4 text-slate-900 dark:text-white">
+<div class="h-8 w-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold">Wanderlust</h2>
+</div>
+<nav class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+<a class="text-sm text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#">About Us</a>
+<a class="text-sm text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#">Contact</a>
+<a class="text-sm text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#">Privacy Policy</a>
+<a class="text-sm text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary" href="#">Terms of Service</a>
+</nav>
+<div class="flex justify-center gap-6">
+<a class="text-slate-400 hover:text-primary dark:text-slate-500 dark:hover:text-primary" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+</svg>
+</a>
+<a class="text-slate-400 hover:text-primary dark:text-slate-500 dark:hover:text-primary" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+<path clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.237 2.635 7.855 6.356 9.312-.084-.636-.042-1.28.12-1.879.164-.597.49-1.233.87-1.85.385-.615.823-1.24 1.3-1.854.48-.615 1.004-1.217 1.574-1.782.57-.565 1.18-.98 1.82-1.248.64-.268 1.306-.402 2-.402 1.484 0 2.7.402 3.635 1.208.935.806 1.402 1.96 1.402 3.465 0 1.58-.51 2.883-1.53 3.91-.98.98-2.246 1.47-3.797 1.47a5.55 5.55 0 01-2.58-.59c-.84-.396-1.503-.954-1.99-1.674a4.12 4.12 0 01-.84-2.18c.24-.12.48-.24.72-.36.24-.12.44-.216.6-.288.16-.072.28-.108.36-.108.2 0 .38.054.54.162.16.108.24.27.24.486 0 .162-.03.324-.09.486-.06.162-.16.324-.29.486a.93.93 0 00-.18.36c.2.6.51 1.08.93 1.44.42.36.93.54 1.53.54.88 0 1.6-.282 2.16-.846.56-.564.84-1.32.84-2.268 0-1.026-.33-1.866-.99-2.52-.66-.654-1.52-1.026-2.58-1.122H12v2.24c.72.12 1.28.396 1.68.828.4.432.6.99.6 1.674 0 .6-.204 1.086-.612 1.458-.408.372-.936.558-1.584.558-.56 0-1.06-.15-1.5-.45-.44-.3-.78-.714-1.02-1.242a3.48 3.48 0 01-.36-1.584c0-1.14.44-2.1 1.32-2.88.88-.78 1.96-1.17 3.24-1.17 1.2 0 2.22.354 3.06.99.84.636 1.26 1.476 1.26 2.52 0 1.2-.44 2.22-1.32 3.06-.88.84-1.96 1.26-3.24 1.26z" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="text-slate-400 hover:text-primary dark:text-slate-500 dark:hover:text-primary" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+<path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path>
+</svg>
+</a>
+</div>
+</div>
+<div class="mt-8 border-t border-slate-200 pt-8 text-center text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
+<p>© 2024 Wanderlust. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+</body></html>
