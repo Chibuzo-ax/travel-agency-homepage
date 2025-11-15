@@ -1,14 +1,180 @@
 /* FONT CDN */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* PAGE RESET */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fontFamily);
 }
 
-:root{
-    
+:root {
+  /* TYPOGRAPHY */
+  --fontFamily: "Roboto", sans-serif;
+  --fontSizeSmall: 0.88rem;
+  --fontSizeMedium: 1rem;
+  --fontSizeLarge: 1.25rem;
+  --fontSize-xl: 1.5rem;
+  --fontWeight-medium: 500;
+  --fontWeight-semiBold: 300;
+
+  /* COLORS */
+  --primaryColor: #000000;
+  --secondaryColor: #ffffff;
+  --tetiaryColor: #8d959f;
+  --tetiaryOnColor: #e3e3e3;
+  --buttonColor: #13a4ec;
+  --backgroundColor: #f6f8f8;
+
+  /* SPACING */
+  --smallSpace: 0.5rem;
+  --mediumSpace: 0.8rem;
+  --largeSpace: 1rem;
+  --x-largeSpace: 1.5rem;
+  --xx-largeSpace: 50rem;
+}
+
+/* HOME PAGE STYLE */
+.wanderlust-travels-homepage-ctn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background-color: var(--backgroundColor);
+}
+
+/* HEADER STYLE */
+.homepage-header-ctn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--smallSpace) var(--x-largeSpace);
+}
+
+.brand-logo-and-name-ctn {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: var(--mediumSpace);
+}
+
+.brand-logo-ctn span {
+  color: var(--buttonColor);
+}
+
+.brand-name-ctn h1 {
+  font-size: var(--fontSizeMedium);
+}
+
+.nav-menu-links-ctn {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: var(--x-largeSpace);
+}
+
+a {
+  text-decoration: none;
+  color: var(--tetiaryColor);
+}
+
+.nav-link-ctn p {
+  font-size: var(--fontSizeSmall);
+}
+
+.book-now-btn-and-user-profile-ctn {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: var(--mediumSpace);
+}
+
+.book-now-btn-ctn button {
+  background-color: var(--buttonColor);
+  border-radius: var(--xx-largeSpace);
+  outline: none;
+  border: 0;
+  padding: var(--smallSpace) var(--mediumSpace);
+  color: var(--secondaryColor);
+  cursor: pointer;
+}
+
+.user-profile-ctn {
+  width: 30px;
+  height: 30px;
+  border-radius: var(--xx-largeSpace);
+}
+
+.user-profile-ctn img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--xx-largeSpace);
+}
+
+/* HERO STYLE */
+.hero-bg-img-ctn {
+  background-image: url(./images/eva-darron-oCdVtGFeDC0-unsplash.jpg);
+  background-size: cover;
+  background-position: none;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-headings-and-btn-ctn {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: var(--x-largeSpace);
+}
+
+.hero-headings-ctn {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: var(--primaryColor);
+}
+
+.hero-heading-ctn {
+  font-size: var(--fontSize-xl);
+}
+
+.hero-sub-heading-ctn {
+  color: var(--tetiaryOnColor);
+  font-size: var(--fontSizeSmall);
+  text-align: center;
+}
+
+.hero-btn-ctn button {
+  background-color: var(--buttonColor);
+  border-radius: var(--xx-largeSpace);
+  outline: none;
+  border: 0;
+  padding: var(--smallSpace) var(--x-largeSpace);
+  color: var(--secondaryColor);
+  cursor: pointer;
 }
